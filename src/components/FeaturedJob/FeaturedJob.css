@@ -1,0 +1,50 @@
+.job-container {
+    border: 1px solid #E8E8E8;
+    border-radius: 8px;
+    padding: 40px;
+
+}
+
+.company-logo {
+    width: 120px;
+    height: 45px;
+}
+
+.job-title {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    color: #474747;
+    margin-top: 30px;
+    margin-bottom: 8px;
+}
+
+.companyName {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #757575;
+    margin-top: 0;
+}
+
+.job-btn-container button {
+    border: 1px solid #7E90FE;
+    border-radius: 4px;
+    padding: 9px 19px;
+    color: #7E90FE;
+    font-weight: 800;
+    font-size: 16px;
+    background: #fff;
+}
+
+.address-salary span {
+    margin-left: 6px;
+}
+
+.address-salary {
+    margin-bottom: 10px;
+}
+
+.job-container .primary-btn {
+    margin: 0;
+}

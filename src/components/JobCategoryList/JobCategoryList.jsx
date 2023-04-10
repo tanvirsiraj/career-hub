@@ -13,9 +13,9 @@ const JobCategoryList = () => {
 
     return (
         <div>
-            <div className="jobCategoryListHeader">
-                <h1>Job Category List</h1>
-                <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
+            <div className='section-container'>
+                <h1 className='section-title'>Job Category List</h1>
+                <p className='section-description'>Explore thousands of job opportunities with all the information you need. Its your future</p>
             </div>
             <div className="jobCategoryListContainer container row row-cols-1 row-cols-md-4 mx-auto">
                 {

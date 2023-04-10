@@ -3,8 +3,10 @@ import './JobCategory.css';
 
 const JobCategory = ({ category }) => {
     const { category_logo, category_name, jobs_available } = category;
-    console.log(category_logo)
+    // console.log(category_logo)
     return (
+
+
         <div className='category-container'>
             <div className="category-banner">
                 <img src={category_logo} alt="" />

@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "company_logo": "https://i.ibb.co/Ksr00cg/google-1-1-1.png",
+        "job_title": "Technical Database Engineer",
+        "company_name": "Google LLC",
+        "job_location": "Remote",
+        "job_type": "Full Time",
+        "address": "Dhaka, Bangladesh",
+        "salary": "100K - 150K"
+    },
+    {
+        "id": 2,
+        "company_logo": "https://i.ibb.co/XYdQmj7/netflix-4-1.png",
+        "job_title": "Senior Product Designer",
+        "company_name": "Netflix",
+        "job_location": "Onsite",
+        "job_type": "Full Time",
+        "address": "Dhaka, Bangladesh",
+        "salary": "110K - 180K"
+    },
+    {
+        "id": 3,
+        "company_logo": "https://i.ibb.co/SwJprN0/tesla-9-1.png",
+        "job_title": "Software Engineer",
+        "company_name": "Tesla",
+        "job_location": "Onsite",
+        "job_type": "Full Time",
+        "address": "Dhaka, Bangladesh",
+        "salary": "210K - 240K"
+    },
+    {
+        "id": 4,
+        "company_logo": "https://i.ibb.co/kMWXd1F/Facebook-Logo.png",
+        "job_title": "Front-End Developer",
+        "company_name": "Facebook",
+        "job_location": "Remote",
+        "job_type": "Full Time",
+        "address": "Dhaka, Bangladesh",
+        "salary": "200K - 250K"
+    },
+    {
+        "id": 5,
+        "company_logo": "https://i.ibb.co/ggGBKmL/Apple-logo.png",
+        "job_title": "UX Designer",
+        "company_name": "Apple",
+        "job_location": "Onsite",
+        "job_type": "Full-time",
+        "address": "Dhaka, Bangladesh",
+        "salary": "90K - 100K"
+    },
+    {
+        "id": 6,
+        "company_logo": "https://i.ibb.co/8B6kQRx/Amazon-logo-svg.webp",
+        "job_title": "Sales Representative",
+        "company_name": "Amazon",
+        "job_location": "Onsite",
+        "job_type": "Full-time",
+        "address": "Dhaka, Bangladesh",
+        "salary": "80K - 100K"
+    }
+]
