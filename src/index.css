@@ -4,6 +4,18 @@ body {
   font-family: 'Manrope', sans-serif !important;
 }
 
+.primary-btn {
+  background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+  border-radius: 8px;
+  border: none;
+  padding: 10px 15px;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FFFFFF;
+  margin-top: 34px;
+}
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

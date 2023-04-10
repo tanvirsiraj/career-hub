@@ -1,0 +1,17 @@
+.hero-title {
+    font-weight: 800;
+    font-size: 60px;
+    color: #1A1919;
+}
+
+.hero-title span {
+    color: #7E90FE;
+}
+
+p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 24px;
+    color: #757575;
+}
