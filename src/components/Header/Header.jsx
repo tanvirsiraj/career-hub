@@ -8,12 +8,13 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { Link } from 'react-router-dom';
 import './Header.css';
+import ActiveLink from '../ActiveLink/ActiveLink';
 
 const Header = () => {
     return (
         <Navbar bg="light" expand="lg">
-            <Container fluid>
-                <Navbar.Brand href="#">Professional Advancement</Navbar.Brand>
+            <Container >
+                <Navbar.Brand href="#" className='fs-5 fw-bold'>Professional Advancement</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                     <Nav
@@ -21,15 +22,15 @@ const Header = () => {
                         style={{ maxHeight: '100px' }}
                         navbarScroll
                     >
-                        <Link to="/">Home</Link>
-                        <Link to="statistics">Statistics</Link>
-                        <Link to="appliedjobs">Applied Jobs</Link>
-                        <Link to="blog">Blog</Link>
+                        <ActiveLink to="/">Home</ActiveLink>
+                        <ActiveLink to="statistics">Statistics</ActiveLink>
+                        <ActiveLink to="appliedjobs">Applied Jobs</ActiveLink>
+                        <ActiveLink to="blog">Blog</ActiveLink>
 
 
                     </Nav>
 
-                    <Button variant="outline-success">Search</Button>
+                    <Button className='navbar-btn' variant="outline-success">Star Applying</Button>
                 </Navbar.Collapse>
             </Container>
         </Navbar>
