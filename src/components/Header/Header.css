@@ -1,0 +1,8 @@
+.nav-link a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    margin-left: 30px;
+    color: #757575;
+}
