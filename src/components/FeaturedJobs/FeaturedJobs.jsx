@@ -4,13 +4,29 @@ import FeaturedJob from '../FeaturedJob/FeaturedJob';
 
 const FeaturedJobs = () => {
     const [jobs, setJobs] = useState([]);
+    const [allJob, setAllJob] = useState([]);
 
     useEffect(() => {
         fetch('featuredJobs.json')
             .then(res => res.json())
-            .then(data => setJobs(data))
+            .then(data => setAllJob(data))
     }, [])
 
+    console.log(allJob);
+
+    useEffect(() => {
+        fetch('featuredJobs.json')
+            .then(res => res.json())
+            .then(data => setJobs(data.slice(0, 4)))
+    }, [])
+    console.log(jobs)
+
+    const seeAllJobsHandler = () => {
+        setJobs(allJob);
+    }
+    const seeFewJobsHandler = () => {
+        setJobs(allJob.slice(0, 4));
+    }
     // console.log(jobs)
     return (
         <div className='featuredJobs-container'>
@@ -24,9 +40,13 @@ const FeaturedJobs = () => {
                 }
             </div>
             <div className="seeAllJobsBtn">
-                <button className="primary-btn">
-                    See All Jobs
-                </button>
+                {
+                    jobs.length === 4 ? <button onClick={seeAllJobsHandler} className="primary-btn">
+                        See All Jobs
+                    </button> : <button onClick={seeFewJobsHandler} className="primary-btn">
+                        See Few Jobs
+                    </button>
+                }
             </div>
 
         </div>

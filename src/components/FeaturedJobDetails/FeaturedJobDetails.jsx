@@ -54,6 +54,8 @@ const FeaturedJobDetails = () => {
                     </div>
                 </div>
             </div>
+
+
         </div>
     );
 };
