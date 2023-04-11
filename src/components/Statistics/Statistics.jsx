@@ -74,7 +74,6 @@ const Statistics = () => {
                         <YAxis />
                         <Tooltip />
                         <Area type="monotone" dataKey="number" stroke="#8884d8" fill="#8884d8" />
-                        <Area type="monotone" dataKey="assignment_id" stroke="#8884d8" fill="#8884d8" />
                     </AreaChart>
 
                 </div>

@@ -1,0 +1,14 @@
+.questionnaire {
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.questionnaire div {
+    border-bottom: 1px solid lightgrey;
+}
+
+.questionnaire p {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: justify;
+}
