@@ -7,9 +7,9 @@ import { addToDb } from '../../utilities/fakedb';
 
 const FeaturedJobDetails = () => {
     const jobs = useLoaderData();
-    console.log(jobs)
+    // console.log(jobs)
     const { featuredJobId } = useParams();
-    console.log(featuredJobId);
+    // console.log(featuredJobId);
     const [data, setData] = useState({});
 
     useEffect(() => {
