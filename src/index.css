@@ -37,6 +37,27 @@ body {
 
 .section-description {}
 
+.page-title {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #1A1919;
+  margin-top: 100px;
+}
+
+.banner-top {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.banner-bottom {
+  position: absolute;
+  left: 0;
+  top: 100px;
+}
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
