@@ -7,7 +7,14 @@
         "job_location": "Remote",
         "job_type": "Full Time",
         "address": "Dhaka, Bangladesh",
-        "salary": "100K - 150K"
+        "salary": "100K - 150K",
+        "job_description": "The Technical Database Engineer is responsible for designing, implementing, and maintaining the database systems that support an organization's operations.",
+        "job_responsibility": "Responsibilities include working with cross-functional teams to gather business requirements, creating data models, optimizing database performance, ensuring data security and privacy, and providing technical support.",
+        "educational_requirements": "Bachelor's degree in Computer Science, Information Technology, or a related field, with a focus on database design and management.",
+        "experiences": "Minimum of 5 years of experience in database development and management, including experience with SQL, Oracle, and other database technologies.",
+        "phone": "123-456-7890",
+        "email": "techdbengineer@example.com",
+        "applicant_address": "123 Main Street, Anytown USA"
     },
     {
         "id": 2,
@@ -17,7 +24,14 @@
         "job_location": "Onsite",
         "job_type": "Full Time",
         "address": "Dhaka, Bangladesh",
-        "salary": "110K - 180K"
+        "salary": "110K - 180K",
+        "job_description": "The Senior Product Designer will lead the design of digital products, from ideation to launch, collaborating with cross-functional teams and stakeholders to ensure a user-centered approach.",
+        "job_responsibility": "Responsibilities include conducting user research, defining user personas and journeys, designing wireframes and prototypes, and delivering high-fidelity mockups and design specs.",
+        "educational_requirements": "Bachelor's or Master's degree in Graphic Design, Human-Computer Interaction, or a related field.",
+        "experiences": "Minimum of 7 years of experience in UX/UI design, with a strong portfolio showcasing complex digital product designs.",
+        "phone": "123-456-7890",
+        "email": "seniorproductdesigner@example.com",
+        "applicant_address": "123 Main Street, Anytown USA"
     },
     {
         "id": 3,
@@ -27,7 +41,14 @@
         "job_location": "Onsite",
         "job_type": "Full Time",
         "address": "Dhaka, Bangladesh",
-        "salary": "210K - 240K"
+        "salary": "210K - 240K",
+        "job_description": "The Software Engineer will be responsible for designing and developing software applications, collaborating with cross-functional teams to deliver high-quality and scalable software solutions.",
+        "job_responsibility": "Responsibilities include developing software architecture and design, writing clean and maintainable code, performing code reviews, testing and debugging software, and deploying software to production environments.",
+        "educational_requirements": "Bachelor's or Master's degree in Computer Science, Software Engineering, or a related field.",
+        "experiences": "Minimum of 3 years of experience in software engineering, with strong proficiency in one or more programming languages, such as Java, Python, C++, or JavaScript.",
+        "phone": "123-456-7890",
+        "email": "softwareengineer@example.com",
+        "applicant_address": "123 Main Street, Anytown USA"
     },
     {
         "id": 4,
@@ -37,7 +58,14 @@
         "job_location": "Remote",
         "job_type": "Full Time",
         "address": "Dhaka, Bangladesh",
-        "salary": "200K - 250K"
+        "salary": "200K - 250K",
+        "job_description": "The Front-End Developer will be responsible for developing and maintaining user-facing web applications, collaborating with cross-functional teams to deliver high-quality and responsive web experiences.",
+        "job_responsibility": "Responsibilities include implementing user interface designs, writing clean and maintainable code using HTML, CSS, and JavaScript, optimizing web performance, testing and debugging web applications, and deploying web applications to production environments.",
+        "educational_requirements": "Bachelor's or Master's degree in Computer Science, Web Development, or a related field.",
+        "experiences": "Minimum of 3 years of experience in front-end development, with strong proficiency in HTML, CSS, JavaScript, and one or more front-end frameworks, such as React, Angular, or Vue.",
+        "phone": "123-456-7890",
+        "email": "frontenddeveloper@example.com",
+        "applicant_address": "123 Main Street, Anytown USA"
     },
     {
         "id": 5,
@@ -47,7 +75,14 @@
         "job_location": "Onsite",
         "job_type": "Full-time",
         "address": "Dhaka, Bangladesh",
-        "salary": "90K - 100K"
+        "salary": "90K - 100K",
+        "job_description": "The Senior UX Designer will be responsible for leading the design of complex and innovative digital products and services, collaborating with cross-functional teams to deliver outstanding user experiences.",
+        "job_responsibility": "Responsibilities include leading user research and usability testing, creating high-fidelity wireframes and prototypes, designing visual interfaces and interactions, communicating design solutions to stakeholders, and mentoring and leading a team of UX designers.",
+        "educational_requirements": "Bachelor's or Master's degree in Human-Computer Interaction, Interaction Design, or a related field.",
+        "experiences": "Minimum of 7 years of experience in UX design, with strong proficiency in design tools such as Sketch, Figma, or Adobe Creative Suite, and a portfolio demonstrating a strong understanding of user-centered design principles and practices, as well as a proven track record of technical leadership and mentorship.",
+        "phone": "555-555-5555",
+        "email": "senioruxdesigner@example.com",
+        "applicant_address": "456 Oak Street, Anytown USA"
     },
     {
         "id": 6,
@@ -57,6 +92,13 @@
         "job_location": "Onsite",
         "job_type": "Full-time",
         "address": "Dhaka, Bangladesh",
-        "salary": "80K - 100K"
+        "salary": "80K - 100K",
+        "job_description": "The Senior Sales Representative will be responsible for leading sales efforts in a given territory or market segment, developing and executing sales strategies, and achieving revenue growth targets.",
+        "job_responsibility": "Responsibilities include identifying and acquiring new customers, developing and maintaining relationships with existing customers, leading product demonstrations and presentations, negotiating and closing deals, providing after-sales support and customer service, and maintaining accurate sales records and reports.",
+        "educational_requirements": "Bachelor's degree in Business, Marketing, or a related field.",
+        "experiences": "Minimum of 5 years of experience in sales, with a proven track record of achieving revenue growth targets, building customer relationships, and leading sales teams.",
+        "phone": "555-555-5555",
+        "email": "seniorsalesrep@example.com",
+        "applicant_address": "456 Oak Street, Anytown USA"
     }
 ]

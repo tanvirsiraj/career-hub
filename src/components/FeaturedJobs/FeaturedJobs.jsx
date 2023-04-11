@@ -11,7 +11,7 @@ const FeaturedJobs = () => {
             .then(data => setJobs(data))
     }, [])
 
-    console.log(jobs)
+    // console.log(jobs)
     return (
         <div className='featuredJobs-container'>
             <div className="section-container">

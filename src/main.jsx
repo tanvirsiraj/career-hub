@@ -13,6 +13,9 @@ import AppliedJobs from './components/AppliedJobs/AppliedJobs';
 import Blog from './components/Blog/Blog';
 import Home from './components/Home/Home';
 import NotFound from './components/NotFound/NotFound';
+import FeaturedJob from './components/FeaturedJob/FeaturedJob';
+import FeaturedJobs from './components/FeaturedJobs/FeaturedJobs';
+import FeaturedJobDetails from './components/FeaturedJobDetails/FeaturedJobDetails';
 
 
 const router = createBrowserRouter([
@@ -37,13 +40,13 @@ const router = createBrowserRouter([
         path: "/blog",
         element: <Blog></Blog>
       },
-      /* {
-        path: '*',
-        element: <NotFound></NotFound>
-      } */
+      {
+        path: 'featuredJob/:featuredJobId',
+        element: <FeaturedJobDetails></FeaturedJobDetails>,
+        loader: ({ params }) => fetch('featuredJobs.json')
+      }
     ]
   },
-
 
 ])
 ReactDOM.createRoot(document.getElementById('root')).render(
