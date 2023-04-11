@@ -12,14 +12,14 @@ const FeaturedJobs = () => {
             .then(data => setAllJob(data))
     }, [])
 
-    console.log(allJob);
+    // console.log(allJob);
 
     useEffect(() => {
         fetch('featuredJobs.json')
             .then(res => res.json())
             .then(data => setJobs(data.slice(0, 4)))
     }, [])
-    console.log(jobs)
+    // console.log(jobs)
 
     const seeAllJobsHandler = () => {
         setJobs(allJob);

@@ -3,6 +3,7 @@ import { useLoaderData, useParams } from 'react-router-dom';
 import './FeaturedJobDetails.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faLocationDot, faDollarSign, faBriefcase, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { addToDb } from '../../utilities/fakedb';
 
 const FeaturedJobDetails = () => {
     const jobs = useLoaderData();
@@ -19,7 +20,12 @@ const FeaturedJobDetails = () => {
         }
     }, [])
 
-    console.log(data)
+    // console.log(data)
+
+    const handleApplyNowButton = (id) => {
+        addToDb(id);
+    }
+
     return (
         <div className='container mb-5'>
             <div className="banner-top">
@@ -50,7 +56,7 @@ const FeaturedJobDetails = () => {
                             <p><FontAwesomeIcon className='icon' icon={faLocationDot} /><span className='fw-bold ms-2'>Address : </span>{data.applicant_address}</p>
 
                         </div>
-                        <button className='primary-btn apply-now-btn'>Apply Now</button>
+                        <button onClick={() => handleApplyNowButton(data.id)} className='primary-btn apply-now-btn'>Apply Now</button>
                     </div>
                 </div>
             </div>
