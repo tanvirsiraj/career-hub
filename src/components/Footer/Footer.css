@@ -1,0 +1,43 @@
+.footer-container {
+    margin-top: 100px;
+    background: #1A1919;
+    padding: 100px 300px;
+}
+
+.footer-inside {
+    border-bottom: 1px solid #7E90FE;
+    margin-block: 50px;
+}
+
+.footer-container h3,
+.footer-container h4 {
+    color: #FFFFFF;
+}
+
+.footer-container p {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.logo-area p {
+    max-width: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer-container {
+        margin-top: 50px;
+        background: #1A1919;
+        padding: 50px 50px;
+    }
+
+    .logo-area {
+        margin-bottom: 80px;
+    }
+
+    .company,
+    .product,
+    .support {
+        margin-bottom: 50px;
+    }
+}
