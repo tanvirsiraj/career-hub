@@ -48,10 +48,10 @@ const Statistics = () => {
     return (
         <div>
             <div className="banner-top">
-                <img src="/public/heroImg/Vector-1.png" alt="" />
+                <img src="Vector-1.png" alt="" />
             </div>
             <div className="banner-bottom">
-                <img src="/public/heroImg/Vector.png" alt="" />
+                <img src="Vector.png" alt="" />
             </div>
             <div className="container">
                 <h1 className='page-title'>Statistics</h1>

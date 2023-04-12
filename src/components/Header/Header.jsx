@@ -13,7 +13,7 @@ import ActiveLink from '../ActiveLink/ActiveLink';
 const Header = () => {
     return (
         <Navbar bg="light" expand="lg">
-            <Container >
+            <Container>
                 <Navbar.Brand href="#" className='fs-4 fw-bold'>Professional Advancement</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">

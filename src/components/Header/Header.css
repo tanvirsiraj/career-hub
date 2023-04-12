@@ -7,6 +7,7 @@
     color: #757575;
 }
 
+
 .navbar-btn {
     padding: 10px 15px;
     background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
@@ -16,4 +17,11 @@
     line-height: 27px;
     color: #FFFFFF;
     border: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .header {
+
+        z-index: 1000;
+    }
 }

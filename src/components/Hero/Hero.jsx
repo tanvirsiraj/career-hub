@@ -12,7 +12,7 @@ const Hero = () => {
                     <button className='primary-btn'>Get Started</button>
                 </div>
                 <div>
-                    <img className='img-fluid' src="/public/heroImg/P3OLGJ1 copy 1.png" alt="" />
+                    <img className='img-fluid' src="banner.png" alt="" />
 
                 </div>
             </div>

@@ -35,7 +35,6 @@ body {
   color: #1A1919;
 }
 
-.section-description {}
 
 .page-title {
   font-weight: 800;
@@ -49,15 +48,27 @@ body {
 .banner-top {
   position: absolute;
   right: 0;
-  top: 0;
-  z-index: -1;
+  top: 60px !important;
+  z-index: 100;
 }
 
 .banner-bottom {
   position: absolute;
   left: 0;
-  top: 100px;
-  z-index: -1;
+  top: 0;
+  z-index: 100;
+}
+
+@media only screen and (max-width: 600px) {
+  .banner-top {
+
+    z-index: -1000;
+  }
+
+  .banner-bottom {
+
+    z-index: -1000;
+  }
 }
 
 /* :root {

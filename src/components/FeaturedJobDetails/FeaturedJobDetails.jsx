@@ -29,10 +29,10 @@ const FeaturedJobDetails = () => {
     return (
         <div className='container mb-5'>
             <div className="banner-top">
-                <img src="/public/heroImg/Vector-1.png" alt="" />
+                <img src="/src/components/FeaturedJobDetails/Vector-1.png" alt="" />
             </div>
             <div className="banner-bottom">
-                <img src="/public/heroImg/Vector.png" alt="" />
+                <img src="/src/components/FeaturedJobDetails/Vector.png" alt="" />
             </div>
             <h1 className='page-title'>Job Details</h1>
             <div className="jobDetail-container">

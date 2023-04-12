@@ -3,6 +3,8 @@
     text-align: center;
 }
 
+
+
 @media (min-width: 768px) {
     .banner-top {
         z-index: 100;

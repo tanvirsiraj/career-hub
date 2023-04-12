@@ -8,7 +8,7 @@ const Footer = () => {
                 <div className="logo-area ">
                     <h3>Porfessional Advancement</h3>
                     <p>There are many variations of passages of Lorem Ipsum , but the majority have suffered alteration in some form.</p>
-                    <img src="/public/icon/Group 9969.png" alt="" />
+                    <img src="Group 9969.png" alt="" />
                 </div>
                 <div className="company-product-support d-md-flex justify-content-between ">
                     <div className="company me-5">

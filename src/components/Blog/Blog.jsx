@@ -5,10 +5,10 @@ const Blog = () => {
     return (
         <div className='container'>
             <div className="banner-top">
-                <img src="/public/heroImg/Vector-1.png" alt="" />
+                <img src="Vector-1.png" alt="" />
             </div>
             <div className="banner-bottom">
-                <img src="/public/heroImg/Vector.png" alt="" />
+                <img src="Vector.png" alt="" />
             </div>
 
             <h1 className='page-title'>Blog</h1>

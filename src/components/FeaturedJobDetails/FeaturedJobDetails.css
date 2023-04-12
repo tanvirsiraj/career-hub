@@ -28,3 +28,17 @@
 .apply-now-btn {
     width: 100%;
 }
+
+.banner-top {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.banner-bottom {
+    position: absolute;
+    left: 0;
+    top: 100px;
+    z-index: -1;
+}
